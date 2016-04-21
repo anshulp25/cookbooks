@@ -1,0 +1,7 @@
+DEPENDENCIES
+  mesos_master
+    path: .
+    metadata: true
+
+GRAPH
+  mesos_master (0.1.0)
