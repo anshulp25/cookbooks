@@ -8,6 +8,10 @@ package "MesosRepo" do
   action  :install
 end
 
+package "deltarpm" do
+  action :install
+end
+
 package "mesos" do
   action :install
 end
