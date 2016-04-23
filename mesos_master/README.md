@@ -39,3 +39,13 @@ sudo chef-client -z -o recipe["mesos_master::mesos_slave_config"]
 ```
 
 Start the systemctl start mesos-slave
+
+
+## Manual Steps
+
+Add the private ip to host name mappings on both master and slave.
+
+```
+172.28.128.X mesosmaster
+172.28.128.X mesosslave
+```
