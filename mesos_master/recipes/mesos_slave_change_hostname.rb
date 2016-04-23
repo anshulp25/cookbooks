@@ -9,3 +9,7 @@ end
 service "network" do
   action :restart
 end
+
+template "/etc/hosts" do
+  source "hosts_slave.erb"
+end
