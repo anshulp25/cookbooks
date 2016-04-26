@@ -55,3 +55,8 @@ Add the private ip to host name mappings on both master and slave.
 172.28.128.X mesosmaster
 172.28.128.X mesosslave
 ```
+Disable the Iptables on both the machines
+
+```
+iptables -F
+```
