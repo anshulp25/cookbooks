@@ -3,6 +3,12 @@
 Cookbook for install docker on CentOS 7.
 
 
+## Installing the Cookbook
+```
+sudo chef-client -z -o recipe["docker::docker_install"]
+
+```
+
 ## Test the Installation
 
 ```

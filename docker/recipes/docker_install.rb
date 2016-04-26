@@ -7,5 +7,5 @@ package "docker-engine" do
 end
 
 service "docker" do
-  action :start
+  action [ :enable , :start ]
 end
