@@ -38,6 +38,12 @@ sudo chef-client -z -o recipe["mesos_master::mesos_slave_config"]
 
 ```
 
+## Mesos Slave Docker install
+
+```
+sudo chef-client -z -o recipe["mesos_master::mesos_slave_docker"]
+```
+
 Start the systemctl start mesos-slave
 
 
